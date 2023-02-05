@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/suni/Documents/Research/fhe/server-equality/build",
+  "command": "/usr/bin/clang++  -I/home/suni/Documents/Research/fhe/server-equality/src/includes -isystem /home/suni/Documents/Research/fhe/seal-lib/include/SEAL-4.0 -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/server-equality.dir/src/main.cpp.o -c /home/suni/Documents/Research/fhe/server-equality/src/main.cpp",
+  "file": "/home/suni/Documents/Research/fhe/server-equality/src/main.cpp"
+},
+{
+  "directory": "/home/suni/Documents/Research/fhe/server-equality/build",
+  "command": "/usr/bin/clang++  -I/home/suni/Documents/Research/fhe/server-equality/src/includes -isystem /home/suni/Documents/Research/fhe/seal-lib/include/SEAL-4.0 -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/server-equality.dir/src/client.cpp.o -c /home/suni/Documents/Research/fhe/server-equality/src/client.cpp",
+  "file": "/home/suni/Documents/Research/fhe/server-equality/src/client.cpp"
+},
+{
+  "directory": "/home/suni/Documents/Research/fhe/server-equality/build",
+  "command": "/usr/bin/clang++  -I/home/suni/Documents/Research/fhe/server-equality/src/includes -isystem /home/suni/Documents/Research/fhe/seal-lib/include/SEAL-4.0 -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/server-equality.dir/src/server.cpp.o -c /home/suni/Documents/Research/fhe/server-equality/src/server.cpp",
+  "file": "/home/suni/Documents/Research/fhe/server-equality/src/server.cpp"
+},
+{
+  "directory": "/home/suni/Documents/Research/fhe/server-equality/build",
+  "command": "/usr/bin/clang++  -I/home/suni/Documents/Research/fhe/server-equality/src/includes -isystem /home/suni/Documents/Research/fhe/seal-lib/include/SEAL-4.0 -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/server-equality.dir/src/utils.cpp.o -c /home/suni/Documents/Research/fhe/server-equality/src/utils.cpp",
+  "file": "/home/suni/Documents/Research/fhe/server-equality/src/utils.cpp"
+},
+{
+  "directory": "/home/suni/Documents/Research/fhe/server-equality/build",
+  "command": "/usr/bin/clang++  -I/home/suni/Documents/Research/fhe/server-equality/src/includes -isystem /home/suni/Documents/Research/fhe/seal-lib/include/SEAL-4.0 -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/server-equality.dir/src/test_bench.cpp.o -c /home/suni/Documents/Research/fhe/server-equality/src/test_bench.cpp",
+  "file": "/home/suni/Documents/Research/fhe/server-equality/src/test_bench.cpp"
+}
+]

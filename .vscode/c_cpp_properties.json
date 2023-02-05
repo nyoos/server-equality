@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+            "name": "CMake",
+            "compileCommands": "build/compile_commands.json",
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "includePath": [
+                "/home/suni/Documents/Research/fhe/seal-lib/include/SEAL-4.0"
+            ]
+        }
+    ],
+    "version": 4
+}

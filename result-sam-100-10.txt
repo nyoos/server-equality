@@ -1,0 +1,1058 @@
+=== Overall timing test === 
+ 
+====== 
+Polynomial modulus: 1024	|| Plaintext modulus: 1024
+-- Sanity check -- 
+x: 427
+y: 427	|| is_equal: 1
+y: 1021	|| is_equal: 0
+y: 737	|| is_equal: 0
+-------
+Took a total of 37 milliseconds for 1000 tests.
+Time per test: 0.037 milliseconds.
+====== 
+Polynomial modulus: 1024	|| Plaintext modulus: 2048
+-- Sanity check -- 
+x: 854
+y: 854	|| is_equal: 1
+y: 2042	|| is_equal: 0
+y: 1475	|| is_equal: 0
+-------
+Took a total of 36 milliseconds for 1000 tests.
+Time per test: 0.036 milliseconds.
+====== 
+Polynomial modulus: 1024	|| Plaintext modulus: 4096
+-- Sanity check -- 
+x: 1708
+y: 1708	|| is_equal: 1
+y: 4084	|| is_equal: 0
+y: 2950	|| is_equal: 0
+-------
+Took a total of 36 milliseconds for 1000 tests.
+Time per test: 0.036 milliseconds.
+====== 
+Polynomial modulus: 1024	|| Plaintext modulus: 8192
+-- Sanity check -- 
+x: 3416
+y: 3416	|| is_equal: 1
+y: 8168	|| is_equal: 0
+y: 5900	|| is_equal: 0
+-------
+Took a total of 35 milliseconds for 1000 tests.
+Time per test: 0.035 milliseconds.
+====== 
+Polynomial modulus: 1024	|| Plaintext modulus: 16384
+-- Sanity check -- 
+x: 6832
+y: 6832	|| is_equal: 1
+y: 16337	|| is_equal: 0
+y: 11801	|| is_equal: 0
+-------
+Took a total of 36 milliseconds for 1000 tests.
+Time per test: 0.036 milliseconds.
+====== 
+Polynomial modulus: 1024	|| Plaintext modulus: 32768
+-- Sanity check -- 
+x: 13664
+y: 13664	|| is_equal: 1
+y: 32675	|| is_equal: 0
+y: 23603	|| is_equal: 0
+-------
+Took a total of 37 milliseconds for 1000 tests.
+Time per test: 0.037 milliseconds.
+====== 
+Polynomial modulus: 2048	|| Plaintext modulus: 1024
+-- Sanity check -- 
+x: 427
+y: 427	|| is_equal: 1
+y: 1021	|| is_equal: 0
+y: 737	|| is_equal: 0
+-------
+Took a total of 76 milliseconds for 1000 tests.
+Time per test: 0.076 milliseconds.
+====== 
+Polynomial modulus: 2048	|| Plaintext modulus: 2048
+-- Sanity check -- 
+x: 854
+y: 854	|| is_equal: 1
+y: 2042	|| is_equal: 0
+y: 1475	|| is_equal: 0
+-------
+Took a total of 75 milliseconds for 1000 tests.
+Time per test: 0.075 milliseconds.
+====== 
+Polynomial modulus: 2048	|| Plaintext modulus: 4096
+-- Sanity check -- 
+x: 1708
+y: 1708	|| is_equal: 1
+y: 4084	|| is_equal: 0
+y: 2950	|| is_equal: 0
+-------
+Took a total of 73 milliseconds for 1000 tests.
+Time per test: 0.073 milliseconds.
+====== 
+Polynomial modulus: 2048	|| Plaintext modulus: 8192
+-- Sanity check -- 
+x: 3416
+y: 3416	|| is_equal: 1
+y: 8168	|| is_equal: 0
+y: 5900	|| is_equal: 0
+-------
+Took a total of 71 milliseconds for 1000 tests.
+Time per test: 0.071 milliseconds.
+====== 
+Polynomial modulus: 2048	|| Plaintext modulus: 16384
+-- Sanity check -- 
+x: 6832
+y: 6832	|| is_equal: 1
+y: 16337	|| is_equal: 0
+y: 11801	|| is_equal: 0
+-------
+Took a total of 75 milliseconds for 1000 tests.
+Time per test: 0.075 milliseconds.
+====== 
+Polynomial modulus: 2048	|| Plaintext modulus: 32768
+-- Sanity check -- 
+x: 13664
+y: 13664	|| is_equal: 1
+y: 32675	|| is_equal: 0
+y: 23603	|| is_equal: 0
+-------
+Took a total of 75 milliseconds for 1000 tests.
+Time per test: 0.075 milliseconds.
+====== 
+Polynomial modulus: 4096	|| Plaintext modulus: 1024
+-- Sanity check -- 
+x: 427
+y: 427	|| is_equal: 1
+y: 1021	|| is_equal: 0
+y: 737	|| is_equal: 0
+-------
+Took a total of 236 milliseconds for 1000 tests.
+Time per test: 0.236 milliseconds.
+====== 
+Polynomial modulus: 4096	|| Plaintext modulus: 2048
+-- Sanity check -- 
+x: 854
+y: 854	|| is_equal: 1
+y: 2042	|| is_equal: 0
+y: 1475	|| is_equal: 0
+-------
+Took a total of 243 milliseconds for 1000 tests.
+Time per test: 0.243 milliseconds.
+====== 
+Polynomial modulus: 4096	|| Plaintext modulus: 4096
+-- Sanity check -- 
+x: 1708
+y: 1708	|| is_equal: 1
+y: 4084	|| is_equal: 0
+y: 2950	|| is_equal: 0
+-------
+Took a total of 249 milliseconds for 1000 tests.
+Time per test: 0.249 milliseconds.
+====== 
+Polynomial modulus: 4096	|| Plaintext modulus: 8192
+-- Sanity check -- 
+x: 3416
+y: 3416	|| is_equal: 1
+y: 8168	|| is_equal: 0
+y: 5900	|| is_equal: 0
+-------
+Took a total of 244 milliseconds for 1000 tests.
+Time per test: 0.244 milliseconds.
+====== 
+Polynomial modulus: 4096	|| Plaintext modulus: 16384
+-- Sanity check -- 
+x: 6832
+y: 6832	|| is_equal: 1
+y: 16337	|| is_equal: 0
+y: 11801	|| is_equal: 0
+-------
+Took a total of 240 milliseconds for 1000 tests.
+Time per test: 0.24 milliseconds.
+====== 
+Polynomial modulus: 4096	|| Plaintext modulus: 32768
+-- Sanity check -- 
+x: 13664
+y: 13664	|| is_equal: 1
+y: 32675	|| is_equal: 0
+y: 23603	|| is_equal: 0
+-------
+Took a total of 242 milliseconds for 1000 tests.
+Time per test: 0.242 milliseconds.
+====== 
+Polynomial modulus: 8192	|| Plaintext modulus: 1024
+-- Sanity check -- 
+x: 427
+y: 427	|| is_equal: 1
+y: 1021	|| is_equal: 0
+y: 737	|| is_equal: 0
+-------
+Took a total of 880 milliseconds for 1000 tests.
+Time per test: 0.88 milliseconds.
+====== 
+Polynomial modulus: 8192	|| Plaintext modulus: 2048
+-- Sanity check -- 
+x: 854
+y: 854	|| is_equal: 1
+y: 2042	|| is_equal: 0
+y: 1475	|| is_equal: 0
+-------
+Took a total of 871 milliseconds for 1000 tests.
+Time per test: 0.871 milliseconds.
+====== 
+Polynomial modulus: 8192	|| Plaintext modulus: 4096
+-- Sanity check -- 
+x: 1708
+y: 1708	|| is_equal: 1
+y: 4084	|| is_equal: 0
+y: 2950	|| is_equal: 0
+-------
+Took a total of 856 milliseconds for 1000 tests.
+Time per test: 0.856 milliseconds.
+====== 
+Polynomial modulus: 8192	|| Plaintext modulus: 8192
+-- Sanity check -- 
+x: 3416
+y: 3416	|| is_equal: 1
+y: 8168	|| is_equal: 0
+y: 5900	|| is_equal: 0
+-------
+Took a total of 884 milliseconds for 1000 tests.
+Time per test: 0.884 milliseconds.
+====== 
+Polynomial modulus: 8192	|| Plaintext modulus: 16384
+-- Sanity check -- 
+x: 6832
+y: 6832	|| is_equal: 1
+y: 16337	|| is_equal: 0
+y: 11801	|| is_equal: 0
+-------
+Took a total of 857 milliseconds for 1000 tests.
+Time per test: 0.857 milliseconds.
+====== 
+Polynomial modulus: 8192	|| Plaintext modulus: 32768
+-- Sanity check -- 
+x: 13664
+y: 13664	|| is_equal: 1
+y: 32675	|| is_equal: 0
+y: 23603	|| is_equal: 0
+-------
+Took a total of 891 milliseconds for 1000 tests.
+Time per test: 0.891 milliseconds.
+====== 
+Polynomial modulus: 16384	|| Plaintext modulus: 1024
+-- Sanity check -- 
+x: 427
+y: 427	|| is_equal: 1
+y: 1021	|| is_equal: 0
+y: 737	|| is_equal: 0
+-------
+Took a total of 3689 milliseconds for 1000 tests.
+Time per test: 3.689 milliseconds.
+====== 
+Polynomial modulus: 16384	|| Plaintext modulus: 2048
+-- Sanity check -- 
+x: 854
+y: 854	|| is_equal: 1
+y: 2042	|| is_equal: 0
+y: 1475	|| is_equal: 0
+-------
+Took a total of 3687 milliseconds for 1000 tests.
+Time per test: 3.687 milliseconds.
+====== 
+Polynomial modulus: 16384	|| Plaintext modulus: 4096
+-- Sanity check -- 
+x: 1708
+y: 1708	|| is_equal: 1
+y: 4084	|| is_equal: 0
+y: 2950	|| is_equal: 0
+-------
+Took a total of 3555 milliseconds for 1000 tests.
+Time per test: 3.555 milliseconds.
+====== 
+Polynomial modulus: 16384	|| Plaintext modulus: 8192
+-- Sanity check -- 
+x: 3416
+y: 3416	|| is_equal: 1
+y: 8168	|| is_equal: 0
+y: 5900	|| is_equal: 0
+-------
+Took a total of 3555 milliseconds for 1000 tests.
+Time per test: 3.555 milliseconds.
+====== 
+Polynomial modulus: 16384	|| Plaintext modulus: 16384
+-- Sanity check -- 
+x: 6832
+y: 6832	|| is_equal: 1
+y: 16337	|| is_equal: 0
+y: 11801	|| is_equal: 0
+-------
+Took a total of 3575 milliseconds for 1000 tests.
+Time per test: 3.575 milliseconds.
+====== 
+Polynomial modulus: 16384	|| Plaintext modulus: 32768
+-- Sanity check -- 
+x: 13664
+y: 13664	|| is_equal: 1
+y: 32675	|| is_equal: 0
+y: 23603	|| is_equal: 0
+-------
+Took a total of 3596 milliseconds for 1000 tests.
+Time per test: 3.596 milliseconds.
+====== 
+Polynomial modulus: 32768	|| Plaintext modulus: 1024
+-- Sanity check -- 
+x: 427
+y: 427	|| is_equal: 1
+y: 1021	|| is_equal: 0
+y: 737	|| is_equal: 0
+-------
+Took a total of 15174 milliseconds for 1000 tests.
+Time per test: 15.174 milliseconds.
+====== 
+Polynomial modulus: 32768	|| Plaintext modulus: 2048
+-- Sanity check -- 
+x: 854
+y: 854	|| is_equal: 1
+y: 2042	|| is_equal: 0
+y: 1475	|| is_equal: 0
+-------
+Took a total of 15243 milliseconds for 1000 tests.
+Time per test: 15.243 milliseconds.
+====== 
+Polynomial modulus: 32768	|| Plaintext modulus: 4096
+-- Sanity check -- 
+x: 1708
+y: 1708	|| is_equal: 1
+y: 4084	|| is_equal: 0
+y: 2950	|| is_equal: 0
+-------
+Took a total of 15240 milliseconds for 1000 tests.
+Time per test: 15.24 milliseconds.
+====== 
+Polynomial modulus: 32768	|| Plaintext modulus: 8192
+-- Sanity check -- 
+x: 3416
+y: 3416	|| is_equal: 1
+y: 8168	|| is_equal: 0
+y: 5900	|| is_equal: 0
+-------
+Took a total of 15642 milliseconds for 1000 tests.
+Time per test: 15.642 milliseconds.
+====== 
+Polynomial modulus: 32768	|| Plaintext modulus: 16384
+-- Sanity check -- 
+x: 6832
+y: 6832	|| is_equal: 1
+y: 16337	|| is_equal: 0
+y: 11801	|| is_equal: 0
+-------
+Took a total of 15732 milliseconds for 1000 tests.
+Time per test: 15.732 milliseconds.
+====== 
+Polynomial modulus: 32768	|| Plaintext modulus: 32768
+-- Sanity check -- 
+x: 13664
+y: 13664	|| is_equal: 1
+y: 32675	|| is_equal: 0
+y: 23603	|| is_equal: 0
+-------
+Took a total of 15640 milliseconds for 1000 tests.
+Time per test: 15.64 milliseconds.
+=== Encryption timing test === 
+ 
+====== 
+Polynomial modulus: 1024	|| Plaintext modulus: 1024
+-------
+Took a total of 11 milliseconds for 1000 tests.
+Time per test: 0.11 milliseconds.
+====== 
+Polynomial modulus: 1024	|| Plaintext modulus: 2048
+-------
+Took a total of 11 milliseconds for 1000 tests.
+Time per test: 0.11 milliseconds.
+====== 
+Polynomial modulus: 1024	|| Plaintext modulus: 4096
+-------
+Took a total of 11 milliseconds for 1000 tests.
+Time per test: 0.11 milliseconds.
+====== 
+Polynomial modulus: 1024	|| Plaintext modulus: 8192
+-------
+Took a total of 11 milliseconds for 1000 tests.
+Time per test: 0.11 milliseconds.
+====== 
+Polynomial modulus: 1024	|| Plaintext modulus: 16384
+-------
+Took a total of 11 milliseconds for 1000 tests.
+Time per test: 0.11 milliseconds.
+====== 
+Polynomial modulus: 1024	|| Plaintext modulus: 32768
+-------
+Took a total of 11 milliseconds for 1000 tests.
+Time per test: 0.11 milliseconds.
+====== 
+Polynomial modulus: 2048	|| Plaintext modulus: 1024
+-------
+Took a total of 21 milliseconds for 1000 tests.
+Time per test: 0.21 milliseconds.
+====== 
+Polynomial modulus: 2048	|| Plaintext modulus: 2048
+-------
+Took a total of 21 milliseconds for 1000 tests.
+Time per test: 0.21 milliseconds.
+====== 
+Polynomial modulus: 2048	|| Plaintext modulus: 4096
+-------
+Took a total of 21 milliseconds for 1000 tests.
+Time per test: 0.21 milliseconds.
+====== 
+Polynomial modulus: 2048	|| Plaintext modulus: 8192
+-------
+Took a total of 21 milliseconds for 1000 tests.
+Time per test: 0.21 milliseconds.
+====== 
+Polynomial modulus: 2048	|| Plaintext modulus: 16384
+-------
+Took a total of 21 milliseconds for 1000 tests.
+Time per test: 0.21 milliseconds.
+====== 
+Polynomial modulus: 2048	|| Plaintext modulus: 32768
+-------
+Took a total of 21 milliseconds for 1000 tests.
+Time per test: 0.21 milliseconds.
+====== 
+Polynomial modulus: 4096	|| Plaintext modulus: 1024
+-------
+Took a total of 69 milliseconds for 1000 tests.
+Time per test: 0.69 milliseconds.
+====== 
+Polynomial modulus: 4096	|| Plaintext modulus: 2048
+-------
+Took a total of 71 milliseconds for 1000 tests.
+Time per test: 0.71 milliseconds.
+====== 
+Polynomial modulus: 4096	|| Plaintext modulus: 4096
+-------
+Took a total of 70 milliseconds for 1000 tests.
+Time per test: 0.7 milliseconds.
+====== 
+Polynomial modulus: 4096	|| Plaintext modulus: 8192
+-------
+Took a total of 71 milliseconds for 1000 tests.
+Time per test: 0.71 milliseconds.
+====== 
+Polynomial modulus: 4096	|| Plaintext modulus: 16384
+-------
+Took a total of 70 milliseconds for 1000 tests.
+Time per test: 0.7 milliseconds.
+====== 
+Polynomial modulus: 4096	|| Plaintext modulus: 32768
+-------
+Took a total of 70 milliseconds for 1000 tests.
+Time per test: 0.7 milliseconds.
+====== 
+Polynomial modulus: 8192	|| Plaintext modulus: 1024
+-------
+Took a total of 199 milliseconds for 1000 tests.
+Time per test: 1.99 milliseconds.
+====== 
+Polynomial modulus: 8192	|| Plaintext modulus: 2048
+-------
+Took a total of 199 milliseconds for 1000 tests.
+Time per test: 1.99 milliseconds.
+====== 
+Polynomial modulus: 8192	|| Plaintext modulus: 4096
+-------
+Took a total of 199 milliseconds for 1000 tests.
+Time per test: 1.99 milliseconds.
+====== 
+Polynomial modulus: 8192	|| Plaintext modulus: 8192
+-------
+Took a total of 200 milliseconds for 1000 tests.
+Time per test: 2 milliseconds.
+====== 
+Polynomial modulus: 8192	|| Plaintext modulus: 16384
+-------
+Took a total of 199 milliseconds for 1000 tests.
+Time per test: 1.99 milliseconds.
+====== 
+Polynomial modulus: 8192	|| Plaintext modulus: 32768
+-------
+Took a total of 199 milliseconds for 1000 tests.
+Time per test: 1.99 milliseconds.
+====== 
+Polynomial modulus: 16384	|| Plaintext modulus: 1024
+-------
+Took a total of 659 milliseconds for 1000 tests.
+Time per test: 6.59 milliseconds.
+====== 
+Polynomial modulus: 16384	|| Plaintext modulus: 2048
+-------
+Took a total of 660 milliseconds for 1000 tests.
+Time per test: 6.6 milliseconds.
+====== 
+Polynomial modulus: 16384	|| Plaintext modulus: 4096
+-------
+Took a total of 694 milliseconds for 1000 tests.
+Time per test: 6.94 milliseconds.
+====== 
+Polynomial modulus: 16384	|| Plaintext modulus: 8192
+-------
+Took a total of 691 milliseconds for 1000 tests.
+Time per test: 6.91 milliseconds.
+====== 
+Polynomial modulus: 16384	|| Plaintext modulus: 16384
+-------
+Took a total of 667 milliseconds for 1000 tests.
+Time per test: 6.67 milliseconds.
+====== 
+Polynomial modulus: 16384	|| Plaintext modulus: 32768
+-------
+Took a total of 669 milliseconds for 1000 tests.
+Time per test: 6.69 milliseconds.
+====== 
+Polynomial modulus: 32768	|| Plaintext modulus: 1024
+-------
+Took a total of 2608 milliseconds for 1000 tests.
+Time per test: 26.08 milliseconds.
+====== 
+Polynomial modulus: 32768	|| Plaintext modulus: 2048
+-------
+Took a total of 2641 milliseconds for 1000 tests.
+Time per test: 26.41 milliseconds.
+====== 
+Polynomial modulus: 32768	|| Plaintext modulus: 4096
+-------
+Took a total of 2575 milliseconds for 1000 tests.
+Time per test: 25.75 milliseconds.
+====== 
+Polynomial modulus: 32768	|| Plaintext modulus: 8192
+-------
+Took a total of 2566 milliseconds for 1000 tests.
+Time per test: 25.66 milliseconds.
+====== 
+Polynomial modulus: 32768	|| Plaintext modulus: 16384
+-------
+Took a total of 2542 milliseconds for 1000 tests.
+Time per test: 25.42 milliseconds.
+====== 
+Polynomial modulus: 32768	|| Plaintext modulus: 32768
+-------
+Took a total of 2550 milliseconds for 1000 tests.
+Time per test: 25.5 milliseconds.
+=== Computation timing test === 
+ 
+====== 
+Polynomial modulus: 1024	|| Plaintext modulus: 1024
+-------
+Took a total of 0 milliseconds for 1000 tests.
+Time per test: 0 milliseconds.
+====== 
+Polynomial modulus: 1024	|| Plaintext modulus: 2048
+-------
+Took a total of 0 milliseconds for 1000 tests.
+Time per test: 0 milliseconds.
+====== 
+Polynomial modulus: 1024	|| Plaintext modulus: 4096
+-------
+Took a total of 0 milliseconds for 1000 tests.
+Time per test: 0 milliseconds.
+====== 
+Polynomial modulus: 1024	|| Plaintext modulus: 8192
+-------
+Took a total of 0 milliseconds for 1000 tests.
+Time per test: 0 milliseconds.
+====== 
+Polynomial modulus: 1024	|| Plaintext modulus: 16384
+-------
+Took a total of 0 milliseconds for 1000 tests.
+Time per test: 0 milliseconds.
+====== 
+Polynomial modulus: 1024	|| Plaintext modulus: 32768
+-------
+Took a total of 0 milliseconds for 1000 tests.
+Time per test: 0 milliseconds.
+====== 
+Polynomial modulus: 2048	|| Plaintext modulus: 1024
+-------
+Took a total of 1 milliseconds for 1000 tests.
+Time per test: 0.001 milliseconds.
+====== 
+Polynomial modulus: 2048	|| Plaintext modulus: 2048
+-------
+Took a total of 1 milliseconds for 1000 tests.
+Time per test: 0.001 milliseconds.
+====== 
+Polynomial modulus: 2048	|| Plaintext modulus: 4096
+-------
+Took a total of 1 milliseconds for 1000 tests.
+Time per test: 0.001 milliseconds.
+====== 
+Polynomial modulus: 2048	|| Plaintext modulus: 8192
+-------
+Took a total of 1 milliseconds for 1000 tests.
+Time per test: 0.001 milliseconds.
+====== 
+Polynomial modulus: 2048	|| Plaintext modulus: 16384
+-------
+Took a total of 1 milliseconds for 1000 tests.
+Time per test: 0.001 milliseconds.
+====== 
+Polynomial modulus: 2048	|| Plaintext modulus: 32768
+-------
+Took a total of 0 milliseconds for 1000 tests.
+Time per test: 0 milliseconds.
+====== 
+Polynomial modulus: 4096	|| Plaintext modulus: 1024
+-------
+Took a total of 3 milliseconds for 1000 tests.
+Time per test: 0.003 milliseconds.
+====== 
+Polynomial modulus: 4096	|| Plaintext modulus: 2048
+-------
+Took a total of 3 milliseconds for 1000 tests.
+Time per test: 0.003 milliseconds.
+====== 
+Polynomial modulus: 4096	|| Plaintext modulus: 4096
+-------
+Took a total of 3 milliseconds for 1000 tests.
+Time per test: 0.003 milliseconds.
+====== 
+Polynomial modulus: 4096	|| Plaintext modulus: 8192
+-------
+Took a total of 3 milliseconds for 1000 tests.
+Time per test: 0.003 milliseconds.
+====== 
+Polynomial modulus: 4096	|| Plaintext modulus: 16384
+-------
+Took a total of 3 milliseconds for 1000 tests.
+Time per test: 0.003 milliseconds.
+====== 
+Polynomial modulus: 4096	|| Plaintext modulus: 32768
+-------
+Took a total of 3 milliseconds for 1000 tests.
+Time per test: 0.003 milliseconds.
+====== 
+Polynomial modulus: 8192	|| Plaintext modulus: 1024
+-------
+Took a total of 13 milliseconds for 1000 tests.
+Time per test: 0.013 milliseconds.
+====== 
+Polynomial modulus: 8192	|| Plaintext modulus: 2048
+-------
+Took a total of 13 milliseconds for 1000 tests.
+Time per test: 0.013 milliseconds.
+====== 
+Polynomial modulus: 8192	|| Plaintext modulus: 4096
+-------
+Took a total of 13 milliseconds for 1000 tests.
+Time per test: 0.013 milliseconds.
+====== 
+Polynomial modulus: 8192	|| Plaintext modulus: 8192
+-------
+Took a total of 13 milliseconds for 1000 tests.
+Time per test: 0.013 milliseconds.
+====== 
+Polynomial modulus: 8192	|| Plaintext modulus: 16384
+-------
+Took a total of 13 milliseconds for 1000 tests.
+Time per test: 0.013 milliseconds.
+====== 
+Polynomial modulus: 8192	|| Plaintext modulus: 32768
+-------
+Took a total of 13 milliseconds for 1000 tests.
+Time per test: 0.013 milliseconds.
+====== 
+Polynomial modulus: 16384	|| Plaintext modulus: 1024
+-------
+Took a total of 66 milliseconds for 1000 tests.
+Time per test: 0.066 milliseconds.
+====== 
+Polynomial modulus: 16384	|| Plaintext modulus: 2048
+-------
+Took a total of 66 milliseconds for 1000 tests.
+Time per test: 0.066 milliseconds.
+====== 
+Polynomial modulus: 16384	|| Plaintext modulus: 4096
+-------
+Took a total of 67 milliseconds for 1000 tests.
+Time per test: 0.067 milliseconds.
+====== 
+Polynomial modulus: 16384	|| Plaintext modulus: 8192
+-------
+Took a total of 65 milliseconds for 1000 tests.
+Time per test: 0.065 milliseconds.
+====== 
+Polynomial modulus: 16384	|| Plaintext modulus: 16384
+-------
+Took a total of 65 milliseconds for 1000 tests.
+Time per test: 0.065 milliseconds.
+====== 
+Polynomial modulus: 16384	|| Plaintext modulus: 32768
+-------
+Took a total of 65 milliseconds for 1000 tests.
+Time per test: 0.065 milliseconds.
+====== 
+Polynomial modulus: 32768	|| Plaintext modulus: 1024
+-------
+Took a total of 260 milliseconds for 1000 tests.
+Time per test: 0.26 milliseconds.
+====== 
+Polynomial modulus: 32768	|| Plaintext modulus: 2048
+-------
+Took a total of 263 milliseconds for 1000 tests.
+Time per test: 0.263 milliseconds.
+====== 
+Polynomial modulus: 32768	|| Plaintext modulus: 4096
+-------
+Took a total of 259 milliseconds for 1000 tests.
+Time per test: 0.259 milliseconds.
+====== 
+Polynomial modulus: 32768	|| Plaintext modulus: 8192
+-------
+Took a total of 259 milliseconds for 1000 tests.
+Time per test: 0.259 milliseconds.
+====== 
+Polynomial modulus: 32768	|| Plaintext modulus: 16384
+-------
+Took a total of 260 milliseconds for 1000 tests.
+Time per test: 0.26 milliseconds.
+====== 
+Polynomial modulus: 32768	|| Plaintext modulus: 32768
+-------
+Took a total of 259 milliseconds for 1000 tests.
+Time per test: 0.259 milliseconds.
+=== Decryption timing test === 
+ 
+====== 
+Polynomial modulus: 1024	|| Plaintext modulus: 1024
+-------
+Took a total of 26 milliseconds for 1000 tests.
+Time per test: 0.026 milliseconds.
+====== 
+Polynomial modulus: 1024	|| Plaintext modulus: 2048
+-------
+Took a total of 26 milliseconds for 1000 tests.
+Time per test: 0.026 milliseconds.
+====== 
+Polynomial modulus: 1024	|| Plaintext modulus: 4096
+-------
+Took a total of 25 milliseconds for 1000 tests.
+Time per test: 0.025 milliseconds.
+====== 
+Polynomial modulus: 1024	|| Plaintext modulus: 8192
+-------
+Took a total of 25 milliseconds for 1000 tests.
+Time per test: 0.025 milliseconds.
+====== 
+Polynomial modulus: 1024	|| Plaintext modulus: 16384
+-------
+Took a total of 26 milliseconds for 1000 tests.
+Time per test: 0.026 milliseconds.
+====== 
+Polynomial modulus: 1024	|| Plaintext modulus: 32768
+-------
+Took a total of 25 milliseconds for 1000 tests.
+Time per test: 0.025 milliseconds.
+====== 
+Polynomial modulus: 2048	|| Plaintext modulus: 1024
+-------
+Took a total of 54 milliseconds for 1000 tests.
+Time per test: 0.054 milliseconds.
+====== 
+Polynomial modulus: 2048	|| Plaintext modulus: 2048
+-------
+Took a total of 53 milliseconds for 1000 tests.
+Time per test: 0.053 milliseconds.
+====== 
+Polynomial modulus: 2048	|| Plaintext modulus: 4096
+-------
+Took a total of 53 milliseconds for 1000 tests.
+Time per test: 0.053 milliseconds.
+====== 
+Polynomial modulus: 2048	|| Plaintext modulus: 8192
+-------
+Took a total of 54 milliseconds for 1000 tests.
+Time per test: 0.054 milliseconds.
+====== 
+Polynomial modulus: 2048	|| Plaintext modulus: 16384
+-------
+Took a total of 54 milliseconds for 1000 tests.
+Time per test: 0.054 milliseconds.
+====== 
+Polynomial modulus: 2048	|| Plaintext modulus: 32768
+-------
+Took a total of 54 milliseconds for 1000 tests.
+Time per test: 0.054 milliseconds.
+====== 
+Polynomial modulus: 4096	|| Plaintext modulus: 1024
+-------
+Took a total of 183 milliseconds for 1000 tests.
+Time per test: 0.183 milliseconds.
+====== 
+Polynomial modulus: 4096	|| Plaintext modulus: 2048
+-------
+Took a total of 183 milliseconds for 1000 tests.
+Time per test: 0.183 milliseconds.
+====== 
+Polynomial modulus: 4096	|| Plaintext modulus: 4096
+-------
+Took a total of 183 milliseconds for 1000 tests.
+Time per test: 0.183 milliseconds.
+====== 
+Polynomial modulus: 4096	|| Plaintext modulus: 8192
+-------
+Took a total of 182 milliseconds for 1000 tests.
+Time per test: 0.182 milliseconds.
+====== 
+Polynomial modulus: 4096	|| Plaintext modulus: 16384
+-------
+Took a total of 182 milliseconds for 1000 tests.
+Time per test: 0.182 milliseconds.
+====== 
+Polynomial modulus: 4096	|| Plaintext modulus: 32768
+-------
+Took a total of 183 milliseconds for 1000 tests.
+Time per test: 0.183 milliseconds.
+====== 
+Polynomial modulus: 8192	|| Plaintext modulus: 1024
+-------
+Took a total of 664 milliseconds for 1000 tests.
+Time per test: 0.664 milliseconds.
+====== 
+Polynomial modulus: 8192	|| Plaintext modulus: 2048
+-------
+Took a total of 659 milliseconds for 1000 tests.
+Time per test: 0.659 milliseconds.
+====== 
+Polynomial modulus: 8192	|| Plaintext modulus: 4096
+-------
+Took a total of 665 milliseconds for 1000 tests.
+Time per test: 0.665 milliseconds.
+====== 
+Polynomial modulus: 8192	|| Plaintext modulus: 8192
+-------
+Took a total of 664 milliseconds for 1000 tests.
+Time per test: 0.664 milliseconds.
+====== 
+Polynomial modulus: 8192	|| Plaintext modulus: 16384
+-------
+Took a total of 667 milliseconds for 1000 tests.
+Time per test: 0.667 milliseconds.
+====== 
+Polynomial modulus: 8192	|| Plaintext modulus: 32768
+-------
+Took a total of 665 milliseconds for 1000 tests.
+Time per test: 0.665 milliseconds.
+====== 
+Polynomial modulus: 16384	|| Plaintext modulus: 1024
+-------
+Took a total of 2848 milliseconds for 1000 tests.
+Time per test: 2.848 milliseconds.
+====== 
+Polynomial modulus: 16384	|| Plaintext modulus: 2048
+-------
+Took a total of 2837 milliseconds for 1000 tests.
+Time per test: 2.837 milliseconds.
+====== 
+Polynomial modulus: 16384	|| Plaintext modulus: 4096
+-------
+Took a total of 2855 milliseconds for 1000 tests.
+Time per test: 2.855 milliseconds.
+====== 
+Polynomial modulus: 16384	|| Plaintext modulus: 8192
+-------
+Took a total of 2841 milliseconds for 1000 tests.
+Time per test: 2.841 milliseconds.
+====== 
+Polynomial modulus: 16384	|| Plaintext modulus: 16384
+-------
+Took a total of 2856 milliseconds for 1000 tests.
+Time per test: 2.856 milliseconds.
+====== 
+Polynomial modulus: 16384	|| Plaintext modulus: 32768
+-------
+Took a total of 2862 milliseconds for 1000 tests.
+Time per test: 2.862 milliseconds.
+====== 
+Polynomial modulus: 32768	|| Plaintext modulus: 1024
+-------
+Took a total of 12631 milliseconds for 1000 tests.
+Time per test: 12.631 milliseconds.
+====== 
+Polynomial modulus: 32768	|| Plaintext modulus: 2048
+-------
+Took a total of 12162 milliseconds for 1000 tests.
+Time per test: 12.162 milliseconds.
+====== 
+Polynomial modulus: 32768	|| Plaintext modulus: 4096
+-------
+Took a total of 12355 milliseconds for 1000 tests.
+Time per test: 12.355 milliseconds.
+====== 
+Polynomial modulus: 32768	|| Plaintext modulus: 8192
+-------
+Took a total of 12228 milliseconds for 1000 tests.
+Time per test: 12.228 milliseconds.
+====== 
+Polynomial modulus: 32768	|| Plaintext modulus: 16384
+-------
+Took a total of 12134 milliseconds for 1000 tests.
+Time per test: 12.134 milliseconds.
+====== 
+Polynomial modulus: 32768	|| Plaintext modulus: 32768
+-------
+Took a total of 12365 milliseconds for 1000 tests.
+Time per test: 12.365 milliseconds.
+======
+=== Overall timing test === 
+ poly_mod = 1024 	|| plain_mod = 1024:	0.037 milliseconds per test
+poly_mod = 1024 	|| plain_mod = 2048:	0.036 milliseconds per test
+poly_mod = 1024 	|| plain_mod = 4096:	0.036 milliseconds per test
+poly_mod = 1024 	|| plain_mod = 8192:	0.035 milliseconds per test
+poly_mod = 1024 	|| plain_mod = 16384:	0.036 milliseconds per test
+poly_mod = 1024 	|| plain_mod = 32768:	0.037 milliseconds per test
+poly_mod = 2048 	|| plain_mod = 1024:	0.076 milliseconds per test
+poly_mod = 2048 	|| plain_mod = 2048:	0.075 milliseconds per test
+poly_mod = 2048 	|| plain_mod = 4096:	0.073 milliseconds per test
+poly_mod = 2048 	|| plain_mod = 8192:	0.071 milliseconds per test
+poly_mod = 2048 	|| plain_mod = 16384:	0.075 milliseconds per test
+poly_mod = 2048 	|| plain_mod = 32768:	0.075 milliseconds per test
+poly_mod = 4096 	|| plain_mod = 1024:	0.236 milliseconds per test
+poly_mod = 4096 	|| plain_mod = 2048:	0.243 milliseconds per test
+poly_mod = 4096 	|| plain_mod = 4096:	0.249 milliseconds per test
+poly_mod = 4096 	|| plain_mod = 8192:	0.244 milliseconds per test
+poly_mod = 4096 	|| plain_mod = 16384:	0.24 milliseconds per test
+poly_mod = 4096 	|| plain_mod = 32768:	0.242 milliseconds per test
+poly_mod = 8192 	|| plain_mod = 1024:	0.88 milliseconds per test
+poly_mod = 8192 	|| plain_mod = 2048:	0.871 milliseconds per test
+poly_mod = 8192 	|| plain_mod = 4096:	0.856 milliseconds per test
+poly_mod = 8192 	|| plain_mod = 8192:	0.884 milliseconds per test
+poly_mod = 8192 	|| plain_mod = 16384:	0.857 milliseconds per test
+poly_mod = 8192 	|| plain_mod = 32768:	0.891 milliseconds per test
+poly_mod = 16384 	|| plain_mod = 1024:	3.689 milliseconds per test
+poly_mod = 16384 	|| plain_mod = 2048:	3.687 milliseconds per test
+poly_mod = 16384 	|| plain_mod = 4096:	3.555 milliseconds per test
+poly_mod = 16384 	|| plain_mod = 8192:	3.555 milliseconds per test
+poly_mod = 16384 	|| plain_mod = 16384:	3.575 milliseconds per test
+poly_mod = 16384 	|| plain_mod = 32768:	3.596 milliseconds per test
+poly_mod = 32768 	|| plain_mod = 1024:	15.174 milliseconds per test
+poly_mod = 32768 	|| plain_mod = 2048:	15.243 milliseconds per test
+poly_mod = 32768 	|| plain_mod = 4096:	15.24 milliseconds per test
+poly_mod = 32768 	|| plain_mod = 8192:	15.642 milliseconds per test
+poly_mod = 32768 	|| plain_mod = 16384:	15.732 milliseconds per test
+poly_mod = 32768 	|| plain_mod = 32768:	15.64 milliseconds per test
+=== Encryption timing test === 
+ poly_mod = 1024 	|| plain_mod = 1024:	0.11 milliseconds per test
+poly_mod = 1024 	|| plain_mod = 2048:	0.11 milliseconds per test
+poly_mod = 1024 	|| plain_mod = 4096:	0.11 milliseconds per test
+poly_mod = 1024 	|| plain_mod = 8192:	0.11 milliseconds per test
+poly_mod = 1024 	|| plain_mod = 16384:	0.11 milliseconds per test
+poly_mod = 1024 	|| plain_mod = 32768:	0.11 milliseconds per test
+poly_mod = 2048 	|| plain_mod = 1024:	0.21 milliseconds per test
+poly_mod = 2048 	|| plain_mod = 2048:	0.21 milliseconds per test
+poly_mod = 2048 	|| plain_mod = 4096:	0.21 milliseconds per test
+poly_mod = 2048 	|| plain_mod = 8192:	0.21 milliseconds per test
+poly_mod = 2048 	|| plain_mod = 16384:	0.21 milliseconds per test
+poly_mod = 2048 	|| plain_mod = 32768:	0.21 milliseconds per test
+poly_mod = 4096 	|| plain_mod = 1024:	0.69 milliseconds per test
+poly_mod = 4096 	|| plain_mod = 2048:	0.71 milliseconds per test
+poly_mod = 4096 	|| plain_mod = 4096:	0.7 milliseconds per test
+poly_mod = 4096 	|| plain_mod = 8192:	0.71 milliseconds per test
+poly_mod = 4096 	|| plain_mod = 16384:	0.7 milliseconds per test
+poly_mod = 4096 	|| plain_mod = 32768:	0.7 milliseconds per test
+poly_mod = 8192 	|| plain_mod = 1024:	1.99 milliseconds per test
+poly_mod = 8192 	|| plain_mod = 2048:	1.99 milliseconds per test
+poly_mod = 8192 	|| plain_mod = 4096:	1.99 milliseconds per test
+poly_mod = 8192 	|| plain_mod = 8192:	2 milliseconds per test
+poly_mod = 8192 	|| plain_mod = 16384:	1.99 milliseconds per test
+poly_mod = 8192 	|| plain_mod = 32768:	1.99 milliseconds per test
+poly_mod = 16384 	|| plain_mod = 1024:	6.59 milliseconds per test
+poly_mod = 16384 	|| plain_mod = 2048:	6.6 milliseconds per test
+poly_mod = 16384 	|| plain_mod = 4096:	6.94 milliseconds per test
+poly_mod = 16384 	|| plain_mod = 8192:	6.91 milliseconds per test
+poly_mod = 16384 	|| plain_mod = 16384:	6.67 milliseconds per test
+poly_mod = 16384 	|| plain_mod = 32768:	6.69 milliseconds per test
+poly_mod = 32768 	|| plain_mod = 1024:	26.08 milliseconds per test
+poly_mod = 32768 	|| plain_mod = 2048:	26.41 milliseconds per test
+poly_mod = 32768 	|| plain_mod = 4096:	25.75 milliseconds per test
+poly_mod = 32768 	|| plain_mod = 8192:	25.66 milliseconds per test
+poly_mod = 32768 	|| plain_mod = 16384:	25.42 milliseconds per test
+poly_mod = 32768 	|| plain_mod = 32768:	25.5 milliseconds per test
+=== Computation timing test === 
+ poly_mod = 1024 	|| plain_mod = 1024:	0 milliseconds per test
+poly_mod = 1024 	|| plain_mod = 2048:	0 milliseconds per test
+poly_mod = 1024 	|| plain_mod = 4096:	0 milliseconds per test
+poly_mod = 1024 	|| plain_mod = 8192:	0 milliseconds per test
+poly_mod = 1024 	|| plain_mod = 16384:	0 milliseconds per test
+poly_mod = 1024 	|| plain_mod = 32768:	0 milliseconds per test
+poly_mod = 2048 	|| plain_mod = 1024:	0.001 milliseconds per test
+poly_mod = 2048 	|| plain_mod = 2048:	0.001 milliseconds per test
+poly_mod = 2048 	|| plain_mod = 4096:	0.001 milliseconds per test
+poly_mod = 2048 	|| plain_mod = 8192:	0.001 milliseconds per test
+poly_mod = 2048 	|| plain_mod = 16384:	0.001 milliseconds per test
+poly_mod = 2048 	|| plain_mod = 32768:	0 milliseconds per test
+poly_mod = 4096 	|| plain_mod = 1024:	0.003 milliseconds per test
+poly_mod = 4096 	|| plain_mod = 2048:	0.003 milliseconds per test
+poly_mod = 4096 	|| plain_mod = 4096:	0.003 milliseconds per test
+poly_mod = 4096 	|| plain_mod = 8192:	0.003 milliseconds per test
+poly_mod = 4096 	|| plain_mod = 16384:	0.003 milliseconds per test
+poly_mod = 4096 	|| plain_mod = 32768:	0.003 milliseconds per test
+poly_mod = 8192 	|| plain_mod = 1024:	0.013 milliseconds per test
+poly_mod = 8192 	|| plain_mod = 2048:	0.013 milliseconds per test
+poly_mod = 8192 	|| plain_mod = 4096:	0.013 milliseconds per test
+poly_mod = 8192 	|| plain_mod = 8192:	0.013 milliseconds per test
+poly_mod = 8192 	|| plain_mod = 16384:	0.013 milliseconds per test
+poly_mod = 8192 	|| plain_mod = 32768:	0.013 milliseconds per test
+poly_mod = 16384 	|| plain_mod = 1024:	0.066 milliseconds per test
+poly_mod = 16384 	|| plain_mod = 2048:	0.066 milliseconds per test
+poly_mod = 16384 	|| plain_mod = 4096:	0.067 milliseconds per test
+poly_mod = 16384 	|| plain_mod = 8192:	0.065 milliseconds per test
+poly_mod = 16384 	|| plain_mod = 16384:	0.065 milliseconds per test
+poly_mod = 16384 	|| plain_mod = 32768:	0.065 milliseconds per test
+poly_mod = 32768 	|| plain_mod = 1024:	0.26 milliseconds per test
+poly_mod = 32768 	|| plain_mod = 2048:	0.263 milliseconds per test
+poly_mod = 32768 	|| plain_mod = 4096:	0.259 milliseconds per test
+poly_mod = 32768 	|| plain_mod = 8192:	0.259 milliseconds per test
+poly_mod = 32768 	|| plain_mod = 16384:	0.26 milliseconds per test
+poly_mod = 32768 	|| plain_mod = 32768:	0.259 milliseconds per test
+=== Decryption timing test === 
+ poly_mod = 1024 	|| plain_mod = 1024:	0.026 milliseconds per test
+poly_mod = 1024 	|| plain_mod = 2048:	0.026 milliseconds per test
+poly_mod = 1024 	|| plain_mod = 4096:	0.025 milliseconds per test
+poly_mod = 1024 	|| plain_mod = 8192:	0.025 milliseconds per test
+poly_mod = 1024 	|| plain_mod = 16384:	0.026 milliseconds per test
+poly_mod = 1024 	|| plain_mod = 32768:	0.025 milliseconds per test
+poly_mod = 2048 	|| plain_mod = 1024:	0.054 milliseconds per test
+poly_mod = 2048 	|| plain_mod = 2048:	0.053 milliseconds per test
+poly_mod = 2048 	|| plain_mod = 4096:	0.053 milliseconds per test
+poly_mod = 2048 	|| plain_mod = 8192:	0.054 milliseconds per test
+poly_mod = 2048 	|| plain_mod = 16384:	0.054 milliseconds per test
+poly_mod = 2048 	|| plain_mod = 32768:	0.054 milliseconds per test
+poly_mod = 4096 	|| plain_mod = 1024:	0.183 milliseconds per test
+poly_mod = 4096 	|| plain_mod = 2048:	0.183 milliseconds per test
+poly_mod = 4096 	|| plain_mod = 4096:	0.183 milliseconds per test
+poly_mod = 4096 	|| plain_mod = 8192:	0.182 milliseconds per test
+poly_mod = 4096 	|| plain_mod = 16384:	0.182 milliseconds per test
+poly_mod = 4096 	|| plain_mod = 32768:	0.183 milliseconds per test
+poly_mod = 8192 	|| plain_mod = 1024:	0.664 milliseconds per test
+poly_mod = 8192 	|| plain_mod = 2048:	0.659 milliseconds per test
+poly_mod = 8192 	|| plain_mod = 4096:	0.665 milliseconds per test
+poly_mod = 8192 	|| plain_mod = 8192:	0.664 milliseconds per test
+poly_mod = 8192 	|| plain_mod = 16384:	0.667 milliseconds per test
+poly_mod = 8192 	|| plain_mod = 32768:	0.665 milliseconds per test
+poly_mod = 16384 	|| plain_mod = 1024:	2.848 milliseconds per test
+poly_mod = 16384 	|| plain_mod = 2048:	2.837 milliseconds per test
+poly_mod = 16384 	|| plain_mod = 4096:	2.855 milliseconds per test
+poly_mod = 16384 	|| plain_mod = 8192:	2.841 milliseconds per test
+poly_mod = 16384 	|| plain_mod = 16384:	2.856 milliseconds per test
+poly_mod = 16384 	|| plain_mod = 32768:	2.862 milliseconds per test
+poly_mod = 32768 	|| plain_mod = 1024:	12.631 milliseconds per test
+poly_mod = 32768 	|| plain_mod = 2048:	12.162 milliseconds per test
+poly_mod = 32768 	|| plain_mod = 4096:	12.355 milliseconds per test
+poly_mod = 32768 	|| plain_mod = 8192:	12.228 milliseconds per test
+poly_mod = 32768 	|| plain_mod = 16384:	12.134 milliseconds per test
+poly_mod = 32768 	|| plain_mod = 32768:	12.365 milliseconds per test
+
