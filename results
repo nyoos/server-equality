@@ -1,0 +1,9 @@
+bitlength = 4096, plain_mod = 65
+hamming_weight = 1 | noise budget of query result: 39
+hamming_weight = 2 | noise budget of query result: 27
+hamming_weight = 3 | noise budget of query result: 11
+hamming_weight = 4 | noise budget of query result: 10
+hamming_weight = 5 | Noise budget of query result: exceeded
+
+As expected, multiplicative depth of calculating the selection vector increases and noise consumption increases when hamming weight increases past a power of 2. 
+(weight 3 and 4 have similar noise consumptions)

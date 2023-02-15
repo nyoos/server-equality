@@ -1,3 +1,3 @@
-/home/suni/Documents/Research/fhe/server-equality/build/CMakeFiles/server-equality.dir
-/home/suni/Documents/Research/fhe/server-equality/build/CMakeFiles/edit_cache.dir
-/home/suni/Documents/Research/fhe/server-equality/build/CMakeFiles/rebuild_cache.dir
+/home/suni/Documents/Research/fhe/server-cwc-multi-equality/build/CMakeFiles/server-cwc-multi-equality.dir
+/home/suni/Documents/Research/fhe/server-cwc-multi-equality/build/CMakeFiles/edit_cache.dir
+/home/suni/Documents/Research/fhe/server-cwc-multi-equality/build/CMakeFiles/rebuild_cache.dir

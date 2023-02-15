@@ -1,39 +1,64 @@
 #include "client.h"
 #include "utils.h"
+#include "cwc.h"
 #include <string>
 #include <iostream>
+#include <stdexcept>
+#include <vector>
+#include <cmath>
 
-bool Client::is_zero(Ciphertext z_encrypted) {
-  Plaintext z_decrypted;
-  decryptor.decrypt(z_encrypted, z_decrypted);
-  std::string output = z_decrypted.to_string();
-  uint64_t result = hex_string_to_uint(output);
-  return result == 0;
+
+// 2^c = poly_degree
+Query Client::generate_query(uint64_t x) {
+
+  std::vector<size_t> x_eles = perfect_mapping(x, bit_length, hamming_weight);
+  uint64_t poly_degree = parameters.poly_modulus_degree();
+  uint64_t num_ciphertexts = bit_length / poly_degree + bit_length % poly_degree;
+  std::vector<Plaintext> plaintexts;
+
+  for (int i = 0; i < num_ciphertexts; i++) {
+    plaintexts.push_back(Plaintext(poly_degree));
+  }
+  uint64_t inverse = 0;
+  util::try_invert_uint_mod(poly_degree, parameters.plain_modulus(), inverse);
+ 
+  for (size_t & index : x_eles) {
+    plaintexts[index / poly_degree][index % poly_degree] = inverse;
+  }
+  
+  Query query;
+  for (int i = 0; i < num_ciphertexts; i++) {
+    Ciphertext x_encrypted;
+    encryptor.encrypt(plaintexts[i], x_encrypted);
+    query.push_back(x_encrypted);
+  }
+  return query;
 }
 
-uint64_t Client::decrypt(Ciphertext x_encrypted) {
-  Plaintext x_plain;
-  decryptor.decrypt(x_encrypted, x_plain);
-  std::string output = x_plain.to_string();
-  uint64_t result = hex_string_to_uint(output);
+
+ClientContext Client::get_context() {
+  ClientContext result = {parameters,context,public_key,galois_keys,relin_keys,hamming_weight,bit_length};
   return result;
 }
 
-Ciphertext Client::set_x(uint64_t new_x) {
-  x = new_x;
-  Plaintext x_plain(uint_to_hex_string(x));
-  Ciphertext x_encrypted;
-  encryptor.encrypt(x_plain, x_encrypted);
-  return x_encrypted;
+Decryptor * Client::get_decryptor(){
+  return &decryptor;
 }
 
-EncryptionParameters Client::get_parameters() {
-  return parameters;
-}
-
-SEALContext Client::get_context() {
-  return context;
-}
 int Client::check_noise(Ciphertext x) {
   return decryptor.invariant_noise_budget(x);
+}
+
+void Client::test(){
+
+  Plaintext z("1");
+  std::cout <<z.to_string() << std::endl;
+  Query query = generate_query(1);
+
+  std::cout <<"query generated successfully"<< std::endl;
+  for (auto & i : query) {
+    decryptor.decrypt(i, z);
+    std::cout <<z.to_string() << std::endl;
+
+  }
 }

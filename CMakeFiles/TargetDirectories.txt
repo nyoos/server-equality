@@ -1,3 +1,0 @@
-/home/suni/Documents/Research/fhe/server-equality/CMakeFiles/server-equality.dir
-/home/suni/Documents/Research/fhe/server-equality/CMakeFiles/edit_cache.dir
-/home/suni/Documents/Research/fhe/server-equality/CMakeFiles/rebuild_cache.dir

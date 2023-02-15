@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/suni/Documents/Research/fhe/server-equality
+CMAKE_SOURCE_DIR = /home/suni/Documents/Research/fhe/server-cwc-multi-equality
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/suni/Documents/Research/fhe/server-equality/build
+CMAKE_BINARY_DIR = /home/suni/Documents/Research/fhe/server-cwc-multi-equality/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/suni/Documents/Research/fhe/server-equality/build/CMakeFiles /home/suni/Documents/Research/fhe/server-equality/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/suni/Documents/Research/fhe/server-cwc-multi-equality/build/CMakeFiles /home/suni/Documents/Research/fhe/server-cwc-multi-equality/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/suni/Documents/Research/fhe/server-equality/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/suni/Documents/Research/fhe/server-cwc-multi-equality/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named server-equality
+# Target rules for targets named server-cwc-multi-equality
 
 # Build rule for target.
-server-equality: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 server-equality
-.PHONY : server-equality
+server-cwc-multi-equality: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 server-cwc-multi-equality
+.PHONY : server-cwc-multi-equality
 
 # fast build rule for target.
-server-equality/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-equality.dir/build.make CMakeFiles/server-equality.dir/build
-.PHONY : server-equality/fast
+server-cwc-multi-equality/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-cwc-multi-equality.dir/build.make CMakeFiles/server-cwc-multi-equality.dir/build
+.PHONY : server-cwc-multi-equality/fast
 
 src/client.o: src/client.cpp.o
 .PHONY : src/client.o
 
 # target to build an object file
 src/client.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-equality.dir/build.make CMakeFiles/server-equality.dir/src/client.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-cwc-multi-equality.dir/build.make CMakeFiles/server-cwc-multi-equality.dir/src/client.cpp.o
 .PHONY : src/client.cpp.o
 
 src/client.i: src/client.cpp.i
@@ -142,7 +142,7 @@ src/client.i: src/client.cpp.i
 
 # target to preprocess a source file
 src/client.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-equality.dir/build.make CMakeFiles/server-equality.dir/src/client.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-cwc-multi-equality.dir/build.make CMakeFiles/server-cwc-multi-equality.dir/src/client.cpp.i
 .PHONY : src/client.cpp.i
 
 src/client.s: src/client.cpp.s
@@ -150,15 +150,39 @@ src/client.s: src/client.cpp.s
 
 # target to generate assembly for a file
 src/client.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-equality.dir/build.make CMakeFiles/server-equality.dir/src/client.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-cwc-multi-equality.dir/build.make CMakeFiles/server-cwc-multi-equality.dir/src/client.cpp.s
 .PHONY : src/client.cpp.s
+
+src/cwc.o: src/cwc.cpp.o
+.PHONY : src/cwc.o
+
+# target to build an object file
+src/cwc.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-cwc-multi-equality.dir/build.make CMakeFiles/server-cwc-multi-equality.dir/src/cwc.cpp.o
+.PHONY : src/cwc.cpp.o
+
+src/cwc.i: src/cwc.cpp.i
+.PHONY : src/cwc.i
+
+# target to preprocess a source file
+src/cwc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-cwc-multi-equality.dir/build.make CMakeFiles/server-cwc-multi-equality.dir/src/cwc.cpp.i
+.PHONY : src/cwc.cpp.i
+
+src/cwc.s: src/cwc.cpp.s
+.PHONY : src/cwc.s
+
+# target to generate assembly for a file
+src/cwc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-cwc-multi-equality.dir/build.make CMakeFiles/server-cwc-multi-equality.dir/src/cwc.cpp.s
+.PHONY : src/cwc.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-equality.dir/build.make CMakeFiles/server-equality.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-cwc-multi-equality.dir/build.make CMakeFiles/server-cwc-multi-equality.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -166,7 +190,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-equality.dir/build.make CMakeFiles/server-equality.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-cwc-multi-equality.dir/build.make CMakeFiles/server-cwc-multi-equality.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -174,7 +198,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-equality.dir/build.make CMakeFiles/server-equality.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-cwc-multi-equality.dir/build.make CMakeFiles/server-cwc-multi-equality.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/server.o: src/server.cpp.o
@@ -182,7 +206,7 @@ src/server.o: src/server.cpp.o
 
 # target to build an object file
 src/server.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-equality.dir/build.make CMakeFiles/server-equality.dir/src/server.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-cwc-multi-equality.dir/build.make CMakeFiles/server-cwc-multi-equality.dir/src/server.cpp.o
 .PHONY : src/server.cpp.o
 
 src/server.i: src/server.cpp.i
@@ -190,7 +214,7 @@ src/server.i: src/server.cpp.i
 
 # target to preprocess a source file
 src/server.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-equality.dir/build.make CMakeFiles/server-equality.dir/src/server.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-cwc-multi-equality.dir/build.make CMakeFiles/server-cwc-multi-equality.dir/src/server.cpp.i
 .PHONY : src/server.cpp.i
 
 src/server.s: src/server.cpp.s
@@ -198,39 +222,15 @@ src/server.s: src/server.cpp.s
 
 # target to generate assembly for a file
 src/server.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-equality.dir/build.make CMakeFiles/server-equality.dir/src/server.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-cwc-multi-equality.dir/build.make CMakeFiles/server-cwc-multi-equality.dir/src/server.cpp.s
 .PHONY : src/server.cpp.s
-
-src/test_bench.o: src/test_bench.cpp.o
-.PHONY : src/test_bench.o
-
-# target to build an object file
-src/test_bench.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-equality.dir/build.make CMakeFiles/server-equality.dir/src/test_bench.cpp.o
-.PHONY : src/test_bench.cpp.o
-
-src/test_bench.i: src/test_bench.cpp.i
-.PHONY : src/test_bench.i
-
-# target to preprocess a source file
-src/test_bench.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-equality.dir/build.make CMakeFiles/server-equality.dir/src/test_bench.cpp.i
-.PHONY : src/test_bench.cpp.i
-
-src/test_bench.s: src/test_bench.cpp.s
-.PHONY : src/test_bench.s
-
-# target to generate assembly for a file
-src/test_bench.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-equality.dir/build.make CMakeFiles/server-equality.dir/src/test_bench.cpp.s
-.PHONY : src/test_bench.cpp.s
 
 src/utils.o: src/utils.cpp.o
 .PHONY : src/utils.o
 
 # target to build an object file
 src/utils.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-equality.dir/build.make CMakeFiles/server-equality.dir/src/utils.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-cwc-multi-equality.dir/build.make CMakeFiles/server-cwc-multi-equality.dir/src/utils.cpp.o
 .PHONY : src/utils.cpp.o
 
 src/utils.i: src/utils.cpp.i
@@ -238,7 +238,7 @@ src/utils.i: src/utils.cpp.i
 
 # target to preprocess a source file
 src/utils.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-equality.dir/build.make CMakeFiles/server-equality.dir/src/utils.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-cwc-multi-equality.dir/build.make CMakeFiles/server-cwc-multi-equality.dir/src/utils.cpp.i
 .PHONY : src/utils.cpp.i
 
 src/utils.s: src/utils.cpp.s
@@ -246,7 +246,7 @@ src/utils.s: src/utils.cpp.s
 
 # target to generate assembly for a file
 src/utils.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-equality.dir/build.make CMakeFiles/server-equality.dir/src/utils.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-cwc-multi-equality.dir/build.make CMakeFiles/server-cwc-multi-equality.dir/src/utils.cpp.s
 .PHONY : src/utils.cpp.s
 
 # Help Target
@@ -257,19 +257,19 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... server-equality"
+	@echo "... server-cwc-multi-equality"
 	@echo "... src/client.o"
 	@echo "... src/client.i"
 	@echo "... src/client.s"
+	@echo "... src/cwc.o"
+	@echo "... src/cwc.i"
+	@echo "... src/cwc.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
 	@echo "... src/server.o"
 	@echo "... src/server.i"
 	@echo "... src/server.s"
-	@echo "... src/test_bench.o"
-	@echo "... src/test_bench.i"
-	@echo "... src/test_bench.s"
 	@echo "... src/utils.o"
 	@echo "... src/utils.i"
 	@echo "... src/utils.s"

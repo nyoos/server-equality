@@ -54,16 +54,16 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/suni/Documents/Research/fhe/server-equality
+CMAKE_SOURCE_DIR = /home/suni/Documents/Research/fhe/server-cwc-multi-equality
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/suni/Documents/Research/fhe/server-equality/build
+CMAKE_BINARY_DIR = /home/suni/Documents/Research/fhe/server-cwc-multi-equality/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/server-equality.dir/all
+all: CMakeFiles/server-cwc-multi-equality.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/server-equality.dir/clean
+clean: CMakeFiles/server-cwc-multi-equality.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/server-equality.dir
+# Target rules for target CMakeFiles/server-cwc-multi-equality.dir
 
 # All Build rule for target.
-CMakeFiles/server-equality.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-equality.dir/build.make CMakeFiles/server-equality.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-equality.dir/build.make CMakeFiles/server-equality.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/suni/Documents/Research/fhe/server-equality/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target server-equality"
-.PHONY : CMakeFiles/server-equality.dir/all
+CMakeFiles/server-cwc-multi-equality.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-cwc-multi-equality.dir/build.make CMakeFiles/server-cwc-multi-equality.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-cwc-multi-equality.dir/build.make CMakeFiles/server-cwc-multi-equality.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/suni/Documents/Research/fhe/server-cwc-multi-equality/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target server-cwc-multi-equality"
+.PHONY : CMakeFiles/server-cwc-multi-equality.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/server-equality.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/suni/Documents/Research/fhe/server-equality/build/CMakeFiles 6
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/server-equality.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/suni/Documents/Research/fhe/server-equality/build/CMakeFiles 0
-.PHONY : CMakeFiles/server-equality.dir/rule
+CMakeFiles/server-cwc-multi-equality.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/suni/Documents/Research/fhe/server-cwc-multi-equality/build/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/server-cwc-multi-equality.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/suni/Documents/Research/fhe/server-cwc-multi-equality/build/CMakeFiles 0
+.PHONY : CMakeFiles/server-cwc-multi-equality.dir/rule
 
 # Convenience name for target.
-server-equality: CMakeFiles/server-equality.dir/rule
-.PHONY : server-equality
+server-cwc-multi-equality: CMakeFiles/server-cwc-multi-equality.dir/rule
+.PHONY : server-cwc-multi-equality
 
 # clean rule for target.
-CMakeFiles/server-equality.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-equality.dir/build.make CMakeFiles/server-equality.dir/clean
-.PHONY : CMakeFiles/server-equality.dir/clean
+CMakeFiles/server-cwc-multi-equality.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-cwc-multi-equality.dir/build.make CMakeFiles/server-cwc-multi-equality.dir/clean
+.PHONY : CMakeFiles/server-cwc-multi-equality.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

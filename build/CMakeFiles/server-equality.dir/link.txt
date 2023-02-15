@@ -1,1 +1,0 @@
-/usr/bin/clang++ -O3 -DNDEBUG "CMakeFiles/server-equality.dir/src/main.cpp.o" "CMakeFiles/server-equality.dir/src/client.cpp.o" "CMakeFiles/server-equality.dir/src/server.cpp.o" "CMakeFiles/server-equality.dir/src/utils.cpp.o" "CMakeFiles/server-equality.dir/src/test_bench.cpp.o" -o server-equality  /home/suni/Documents/Research/fhe/seal-lib/lib64/libseal-4.0.a 
