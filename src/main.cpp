@@ -30,7 +30,7 @@ void print_ciphertext_vec(std::vector<Ciphertext> &v, Decryptor * decryptor) {
 int main(int argc, char *argv[]){
 
     // Running the test cases (when the 0 flag is not passed) consumes a lot of memory - may cause computer to crash
-    if (argc == 2 && *argv[0] == '0'){
+    if (argc == 2 && argv[1][0] == '0'){
         Client client = Client::create(4096, 65);
         client.bit_length = 4096;
         client.hamming_weight = 2;
