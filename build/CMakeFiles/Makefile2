@@ -81,12 +81,12 @@ clean: CMakeFiles/server-cwc-multi-equality.dir/clean
 CMakeFiles/server-cwc-multi-equality.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-cwc-multi-equality.dir/build.make CMakeFiles/server-cwc-multi-equality.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server-cwc-multi-equality.dir/build.make CMakeFiles/server-cwc-multi-equality.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/suni/Documents/Research/fhe/server-cwc-multi-equality/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target server-cwc-multi-equality"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/suni/Documents/Research/fhe/server-cwc-multi-equality/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target server-cwc-multi-equality"
 .PHONY : CMakeFiles/server-cwc-multi-equality.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/server-cwc-multi-equality.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/suni/Documents/Research/fhe/server-cwc-multi-equality/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/suni/Documents/Research/fhe/server-cwc-multi-equality/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/server-cwc-multi-equality.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/suni/Documents/Research/fhe/server-cwc-multi-equality/build/CMakeFiles 0
 .PHONY : CMakeFiles/server-cwc-multi-equality.dir/rule

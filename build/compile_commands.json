@@ -16,11 +16,6 @@
 },
 {
   "directory": "/home/suni/Documents/Research/fhe/server-cwc-multi-equality/build",
-  "command": "/usr/bin/c++  -I/home/suni/Documents/Research/fhe/server-cwc-multi-equality/src/includes -isystem /home/suni/Documents/Research/fhe/seal-lib/include/SEAL-4.0 -O3 -DNDEBUG -o CMakeFiles/server-cwc-multi-equality.dir/src/utils.cpp.o -c /home/suni/Documents/Research/fhe/server-cwc-multi-equality/src/utils.cpp",
-  "file": "/home/suni/Documents/Research/fhe/server-cwc-multi-equality/src/utils.cpp"
-},
-{
-  "directory": "/home/suni/Documents/Research/fhe/server-cwc-multi-equality/build",
   "command": "/usr/bin/c++  -I/home/suni/Documents/Research/fhe/server-cwc-multi-equality/src/includes -isystem /home/suni/Documents/Research/fhe/seal-lib/include/SEAL-4.0 -O3 -DNDEBUG -o CMakeFiles/server-cwc-multi-equality.dir/src/cwc.cpp.o -c /home/suni/Documents/Research/fhe/server-cwc-multi-equality/src/cwc.cpp",
   "file": "/home/suni/Documents/Research/fhe/server-cwc-multi-equality/src/cwc.cpp"
 }

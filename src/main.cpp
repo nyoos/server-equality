@@ -3,7 +3,6 @@
 #include <vector>
 #include <random>
 #include "client.h"
-#include "test_bench.h"
 #include "server.h"
 #include "seal/seal.h"
 #include "cwc.h"
