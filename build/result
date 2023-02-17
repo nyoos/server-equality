@@ -1,6 +1,5 @@
-1x^3 + 1x^2 || 
-2x^2|| 
-0|| 0|| 
+2x^3 + 2x^2 || 
+4x^2|| 4x^2|| 
 0|| 0|| 8|| 8|| 
 0|| 0|| 10|| 10|| 0|| 0|| 0|| 0|| 
 0|| 0|| 20|| 20|| 0|| 0|| 0|| 0|| 0|| 0|| 0|| 0|| 0|| 0|| 0|| 0|| 
@@ -33,7 +32,7 @@ result: 19
 
 selection vector element:0
 database value: 31
-noise budget: 34
+noise budget: 35
 result: 0
 
 selection vector element:0

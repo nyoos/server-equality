@@ -8,33 +8,37 @@
 std::vector<Ciphertext> Server::expand_query(Query query) {
   std::vector<Ciphertext> expanded_query;
   int poly_degree = client_context.parameters.poly_modulus_degree();
-  int c = std::log2(poly_degree);
+
+  // Expand each ciphertext into 2^expansion_factor number of bits.
+  int expansion_factor = client_context.compression_factor;
 
   for (size_t j = 0; j < query.size(); j++) {
-    std::vector<Ciphertext> cipher_vec(poly_degree);
+    std::vector<Ciphertext> cipher_vec((size_t) pow(2,expansion_factor));
     cipher_vec[0] = query[j];
 
-    for (size_t a = 0; a < c; a++) {
+    for (size_t a = 0; a < expansion_factor; a++) {
 
-      int expansion_factor = pow(2, a);
-      for (size_t b = 0; b < expansion_factor; b++) {
+      int expansion_const = pow(2, a);
+
+      for (size_t b = 0; b < expansion_const; b++) {
         Ciphertext cipher0 = cipher_vec[b];
         evaluator.apply_galois_inplace(cipher0,
-                                       poly_degree/expansion_factor + 1,
+                                       poly_degree/expansion_const + 1,
                                        client_context.galois_keys);
         Ciphertext cipher1;
-        shift_polynomial(cipher0, cipher1, -expansion_factor);
-        shift_polynomial(cipher_vec[b], cipher_vec[b + expansion_factor], -expansion_factor);
+        shift_polynomial(cipher0, cipher1, -expansion_const);
+        shift_polynomial(cipher_vec[b], cipher_vec[b + expansion_const], -expansion_const);
         evaluator.add_inplace(cipher_vec[b], cipher0);
-        evaluator.sub_inplace(cipher_vec[b + expansion_factor], cipher1);
+        evaluator.sub_inplace(cipher_vec[b + expansion_const], cipher1);
       }
       // Show the expansion
       Plaintext plain;
-      for (int i = 0; i < pow(2,a); i++) {
+      for (int i = 0; i < 2*expansion_const; i++) {
           decryptor->decrypt(cipher_vec[i], plain);
           std::cout << plain.to_string() << "|| " ;
       }
       std::cout << std::endl;
+
     }
 
     expanded_query.reserve(expanded_query.size() + cipher_vec.size());
@@ -44,7 +48,7 @@ std::vector<Ciphertext> Server::expand_query(Query query) {
   return expanded_query;
 }
 
-// This implementation only works with compression = log_2 N, i.e. when size of query = 1
+// This implementation only works when compression factor = log_2 polynomial degree, i.e. when size of query = 1
 std::vector<Ciphertext> Server::sealpir_expand_query(Query query) {
   std::vector<Ciphertext> expanded_query(query);
   for (int i = expanded_query.size(); i < client_context.bit_length; i++) {

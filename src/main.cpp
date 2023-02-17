@@ -30,9 +30,7 @@ int main(int argc, char *argv[]){
 
     // Running the test cases (when the 0 flag is not passed) consumes a lot of memory - may cause computer to crash
     if (argc == 2 && argv[1][0] == '0'){
-        Client client = Client::create(4096, 65);
-        client.bit_length = 4096;
-        client.hamming_weight = 2;
+        Client client = Client::create(4096, 65, 2, 2048, 11);
         ClientContext client_context = client.get_context();
         Server server(client_context);
         Decryptor * decryptor = client.get_decryptor();
@@ -43,9 +41,9 @@ int main(int argc, char *argv[]){
                                     {3,9},
                                     {5,25},
                                     {7, 49},
-                                    {101, 64},
+                                    {101, 64}
+                                    // {7998000, 27}
                                     };
-                                    
         server.set_database(database);
 
         Query query = client.generate_query(5);
@@ -69,39 +67,39 @@ int main(int argc, char *argv[]){
     }
 
         // Consumes a lot of memory - may cause computer to crash
-        std::vector<std::vector<int>> results;
-        std::vector<int> polynomial_mods = {4096, 8192};
-        std::vector<int> plaintext_mods = {65, 129};
-        std::vector<int> hamming_weights = {2,3,4,5};
-        for (auto polynomial_mod : polynomial_mods) {
-            for (auto plaintext_mod : plaintext_mods) {
-                for (auto hamming_weight : hamming_weights) {
-                    Client client = Client::create(polynomial_mod, plaintext_mod);
-                    client.bit_length = polynomial_mod;
-                    client.hamming_weight = hamming_weight;
-                    ClientContext client_context = client.get_context();
-                    Server server(client_context);
-                    Decryptor * decryptor = client.get_decryptor();
-                    server.decryptor = decryptor;
+        // std::vector<std::vector<int>> results;
+        // std::vector<int> polynomial_mods = {4096, 8192};
+        // std::vector<int> plaintext_mods = {65, 129};
+        // std::vector<int> hamming_weights = {2,3,4,5};
+        // for (auto polynomial_mod : polynomial_mods) {
+        //     for (auto plaintext_mod : plaintext_mods) {
+        //         for (auto hamming_weight : hamming_weights) {
+        //             Client client = Client::create(polynomial_mod, plaintext_mod);
+        //             client.bit_length = polynomial_mod;
+        //             client.hamming_weight = hamming_weight;
+        //             ClientContext client_context = client.get_context();
+        //             Server server(client_context);
+        //             Decryptor * decryptor = client.get_decryptor();
+        //             server.decryptor = decryptor;
 
-                    std::map<uint64_t,uint64_t> database = {{1,1},
-                                                {2,4},
-                                                };
+        //             std::map<uint64_t,uint64_t> database = {{1,1},
+        //                                         {2,4},
+        //                                         };
                                                 
-                    server.set_database(database);
-                    Query query = client.generate_query(2);
-                    print_ciphertext_vec(query,decryptor);
-                    Ciphertext query_result = server.make_query(query);
-                    int noise = decryptor->invariant_noise_budget(query_result);
-                    std::vector<int> result = {polynomial_mod, plaintext_mod, hamming_weight, noise};
-                    results.push_back(result);
-                }
-            }
-        }
+        //             server.set_database(database);
+        //             Query query = client.generate_query(2);
+        //             print_ciphertext_vec(query,decryptor);
+        //             Ciphertext query_result = server.make_query(query);
+        //             int noise = decryptor->invariant_noise_budget(query_result);
+        //             std::vector<int> result = {polynomial_mod, plaintext_mod, hamming_weight, noise};
+        //             results.push_back(result);
+        //         }
+        //     }
+        // }
 
-        for (int i = 0; i < results.size(); i++) {
-            std::cout << "polynomial mod: " << results[i][0] << " plaintext_mod: " << results[i][1] << " hamming_weight: " << results[i][2] << " noise_budget: " << results[i][3] << std::endl;
-        }
+        // for (int i = 0; i < results.size(); i++) {
+        //     std::cout << "polynomial mod: " << results[i][0] << " plaintext_mod: " << results[i][1] << " hamming_weight: " << results[i][2] << " noise_budget: " << results[i][3] << std::endl;
+        // }
 
 
     return 0;
